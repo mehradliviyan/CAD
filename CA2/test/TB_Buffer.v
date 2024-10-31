@@ -1,6 +1,6 @@
 `timescale 1ns/1ns
 module TB_Buffer ();
-    reg clk, rst, wen;
+    reg clk, wen;
     parameter SIZE = 2;
     parameter MEM_SIZE = 4;
     parameter PAR_WRITE = 2;
@@ -16,12 +16,10 @@ module TB_Buffer ();
     end
     initial begin
         clk = 0;
-        rst = 1;
         waddr = 0;
         wen = 0;
         raddr = 1;
         din = 5;
-        #10 rst = 0;
         #100 wen = 1;
         #100 waddr = 2;
         #110 raddr = 0;
