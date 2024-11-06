@@ -4,7 +4,7 @@
 	exec vlib work
 	vmap work work
 	
-	set TB					"TB_FIFO"
+	set TB					"testbench"
 	set hdl_path			"../src/hdl"
 	set inc_path			"../src/inc"
 	
@@ -20,7 +20,7 @@
 	
 	# vlog 	+acc -incr -source  +define+SIM 	$inc_path/implementation_option.vh
 		
-	vlog 	+acc -incr -source  +incdir+$inc_path +define+SIM 	./tb/$TB.v
+	vlog 	+acc -incr -source  +incdir+$inc_path +define+SIM 	./tb/$TB.sv
 	onerror {break}
 
 #================================ simulation ====================================
