@@ -2,7 +2,7 @@
 module TB_FIFO ();
     reg clk, rstn, wen, clear, ren;
     parameter SIZE = 4;
-    parameter MEM_SIZE = 4;
+    parameter MEM_SIZE = 5;
     parameter PAR_WRITE = 2;
     parameter PAR_READ = 4;
     reg [PAR_WRITE*SIZE-1:0] din;
@@ -38,6 +38,7 @@ module TB_FIFO ();
         wen = 0;
         din = 5;
         ren = 0;
+        clear = 0;
         #10 rstn = 0;
         #10 rstn = 1;
         #100 wen = 1;

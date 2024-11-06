@@ -1,0 +1,71 @@
+{D:/term 5/CAD/CA/2/test/FIFO_controller2.v} {1 {vlog -work work -stats=none {D:/term 5/CAD/CA/2/test/FIFO_controller2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FIFO_CONTROLLER2
+
+Top level modules:
+	FIFO_CONTROLLER2
+
+} {} {}} {D:/term 5/CAD/CA/2/test/TB_FIFO.v} {1 {vlog -work work -stats=none {D:/term 5/CAD/CA/2/test/TB_FIFO.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB_FIFO
+
+Top level modules:
+	TB_FIFO
+
+} {} {}} {D:/term 5/CAD/CA/2/test/FIFO2.v} {1 {vlog -work work -stats=none {D:/term 5/CAD/CA/2/test/FIFO2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FIFO2
+
+Top level modules:
+	FIFO2
+
+} {} {}} {D:/term 5/CAD/CA/2/test/Buffer.v} {1 {vlog -work work -stats=none {D:/term 5/CAD/CA/2/test/Buffer.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Buffer
+
+Top level modules:
+	Buffer
+
+} {} {}} {D:/term 5/CAD/CA/2/test/FIFO_datapath.v} {1 {vlog -work work -stats=none {D:/term 5/CAD/CA/2/test/FIFO_datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FIFO_DP
+
+Top level modules:
+	FIFO_DP
+
+} {} {}} {D:/term 5/CAD/CA/2/test/FIFO_controller.v} {1 {vlog -work work -stats=none {D:/term 5/CAD/CA/2/test/FIFO_controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FIFO_CONTROLLER
+
+Top level modules:
+	FIFO_CONTROLLER
+
+} {} {}} {D:/term 5/CAD/CA/2/test/TB_Buffer.v} {1 {vlog -work work -stats=none {D:/term 5/CAD/CA/2/test/TB_Buffer.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB_Buffer
+
+Top level modules:
+	TB_Buffer
+
+} {} {}} {D:/term 5/CAD/CA/2/test/Buffer2.v} {1 {vlog -work work -stats=none {D:/term 5/CAD/CA/2/test/Buffer2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Buffer2
+
+Top level modules:
+	Buffer2
+
+} {} {}} {D:/term 5/CAD/CA/2/test/FIFO.v} {1 {vlog -work work -stats=none {D:/term 5/CAD/CA/2/test/FIFO.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FIFO
+
+Top level modules:
+	FIFO
+
+} {} {}} {D:/term 5/CAD/CA/2/test/FIFO_datapath2.v} {1 {vlog -work work -stats=none {D:/term 5/CAD/CA/2/test/FIFO_datapath2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FIFO_DP2
+
+Top level modules:
+	FIFO_DP2
+
+} {} {}}

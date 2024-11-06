@@ -1,4 +1,4 @@
-module FIFO
+module FIFO2 
 #(
     parameter SIZE = 16,
     parameter MEM_SIZE = 8,
@@ -20,6 +20,6 @@ module FIFO
     output ready
 );
 
-FIFO_DP #(.SIZE(SIZE), .MEM_SIZE(MEM_SIZE), .PAR_WRITE(PAR_WRITE), .PAR_READ(PAR_READ)) data_path (.clk(clk), .rstn(rstn), .clear(clear), .wen(wen), .ren(ren), .din(din), .full(full), .empty(empty), .dout(dout));
-FIFO_CONTROLLER controller(.clk(clk), .rstn(rstn), .wen(wen), .empty(empty), .full(full), .valid(valid), .ready(ready));
+FIFO_DP2 #(.SIZE(SIZE), .MEM_SIZE(MEM_SIZE), .PAR_WRITE(PAR_WRITE), .PAR_READ(PAR_READ)) data_path (.clk(clk), .rstn(rstn), .clear(clear), .wen(wen), .ren(ren), .din(din), .full(full), .empty(empty), .dout(dout));
+FIFO_CONTROLLER2 controlle(.clk(clk), .rstn(rstn), .wen(wen), .empty(empty), .full(full), .valid(valid), .ready(ready));
 endmodule

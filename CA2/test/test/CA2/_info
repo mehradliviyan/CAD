@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/mymodelsim
+vBuffer
+Z0 !s110 1730218715
+!i10b 1
+!s100 8Oi1bCY<Oz<QVM_ThcJOA3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ICU`DAZX^_?n?AYg<<kVE91
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/term 5/CAD/CA/2/test/test
+w1730217736
+8D:/term 5/CAD/CA/2/test/Buffer.v
+FD:/term 5/CAD/CA/2/test/Buffer.v
+!i122 8
+L0 1 43
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1730218715.000000
+!s107 D:/term 5/CAD/CA/2/test/Buffer.v|
+!s90 -reportprogress|300|-work|CA2|-stats=none|D:/term 5/CAD/CA/2/test/Buffer.v|
+!i113 1
+Z6 o-work CA2
+Z7 tCvgOpt 0
+n@buffer
+vTB
+R0
+!i10b 1
+!s100 Tn?eQVCmzF`__e2Je<MB:2
+R1
+IQ]9^]9?XbnBmAZLVRUXen3
+R2
+R3
+w1730218712
+8D:/term 5/CAD/CA/2/test/TB_Buffer.v
+FD:/term 5/CAD/CA/2/test/TB_Buffer.v
+!i122 9
+L0 2 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/term 5/CAD/CA/2/test/TB_Buffer.v|
+!s90 -reportprogress|300|-work|CA2|-stats=none|D:/term 5/CAD/CA/2/test/TB_Buffer.v|
+!i113 1
+R6
+R7
+n@t@b

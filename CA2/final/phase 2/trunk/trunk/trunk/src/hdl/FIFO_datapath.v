@@ -55,7 +55,7 @@ always @(posedge clk) begin
         write_addr <= 0;
     end
     else begin
-      if (write_en) begin
+       if (write_en) begin
         if (write_addr + PAR_WRITE > MEM_SIZE) begin
           write_addr <= PAR_WRITE + write_addr - MEM_SIZE ;
         end
